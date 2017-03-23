@@ -189,10 +189,9 @@ public class LoadingLayout extends FrameLayout {
                 errorPage.setVisibility(View.GONE);
                 networkPage.setVisibility(View.GONE);
                 if (defineLoadingPage != null) {
-
                     defineLoadingPage.setVisibility(View.GONE);
                 } else {
-                    loadingPage.setVisibility(View.GONE);
+                    loadingPage.setVisibility(View.VISIBLE);
                 }
                 break;
 
